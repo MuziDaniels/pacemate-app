@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "PaceMate",
+    "slug": "pacemate",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "pacemate",
+    "splash": {
+      "backgroundColor": "#005235"
+    },
+    "ios": {
+      "bundleIdentifier": "com.pacemate.app",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.pacemate.app"
+    }
+  }
+}

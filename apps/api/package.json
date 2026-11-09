@@ -1,0 +1,26 @@
+{
+  "name": "@pacemate/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --config ../../eslint.config.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@pacemate/shared": "workspace:*",
+    "fastify": "^5.0.0",
+    "zod": "^3.23.0",
+    "pg": "^8.13.0",
+    "pg-boss": "^10.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "tsx": "^4.19.0",
+    "vitest": "^2.1.0",
+    "eslint": "^9.0.0",
+    "@types/pg": "^8.11.0"
+  }
+}
