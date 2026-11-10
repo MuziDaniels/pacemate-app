@@ -16,6 +16,9 @@ export type AuthResult =
 // CONVENTIONS section 3: expected failures return typed results; the raw
 // provider error never reaches a screen.
 function friendlyAuthError(message: string): string {
+  // The raw provider error never reaches a screen, but it must reach the
+  // developer: it shows in the Metro terminal during development.
+  console.error("[auth] raw error:", message);
   const m = message.toLowerCase();
   if (m.includes("invalid login credentials"))
     return "Email or password is incorrect.";
