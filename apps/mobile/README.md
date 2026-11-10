@@ -1,4 +1,4 @@
-# PaceMate mobile (Expo SDK 54)
+# PaceMate mobile (Expo SDK 58)
 
 ## Run it
 1. `cp .env.example .env` and fill in your Supabase project URL and anon key
