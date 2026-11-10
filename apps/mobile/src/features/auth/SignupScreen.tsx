@@ -10,10 +10,10 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { Role } from "@pacemate/shared";
-import { ErrorText, Field, PrimaryButton } from "../../components/ui.js";
-import { colors, radius, spacing, typeScale } from "../../theme/index.js";
-import { signUp } from "./auth.service.js";
-import type { AuthStackParamList } from "../../navigation/AppNavigator.js";
+import { ErrorText, Field, PrimaryButton } from "../../components/ui";
+import { colors, radius, spacing, typeScale } from "../../theme/index";
+import { signUp } from "./auth.service";
+import type { AuthStackParamList } from "../../navigation/AppNavigator";
 
 type Props = NativeStackScreenProps<AuthStackParamList, "Signup">;
 

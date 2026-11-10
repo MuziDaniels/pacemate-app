@@ -2,10 +2,10 @@
 // Slice 2 (run recording) and Slice 3 (live sessions) replace the bodies.
 import { StyleSheet, Text, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { PrimaryButton } from "../../components/ui.js";
-import { colors, kineticGradient, radius, spacing, typeScale } from "../../theme/index.js";
-import { useAuthStore } from "../auth/auth.store.js";
-import { signOut } from "../auth/auth.service.js";
+import { PrimaryButton } from "../../components/ui";
+import { colors, kineticGradient, radius, spacing, typeScale } from "../../theme/index";
+import { useAuthStore } from "../auth/auth.store";
+import { signOut } from "../auth/auth.service";
 
 function HomeShell(props: { greetingSuffix: string }) {
   const profile = useAuthStore((s) => s.profile);

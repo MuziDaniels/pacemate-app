@@ -1,6 +1,6 @@
 import { create } from "zustand";
-import { supabase } from "../../services/supabase.js";
-import { fetchProfile, type Profile } from "./auth.service.js";
+import { supabase } from "../../services/supabase";
+import { fetchProfile, type Profile } from "./auth.service";
 
 interface AuthState {
   status: "loading" | "signedOut" | "signedIn";

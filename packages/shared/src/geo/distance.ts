@@ -1,4 +1,4 @@
-import type { GpsPoint } from "../types.js";
+import type { GpsPoint } from "../types";
 
 const EARTH_RADIUS_M = 6371008.8;
 

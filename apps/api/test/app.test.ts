@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildApp } from "../src/app.js";
+import { buildApp } from "../src/app";
 
 const config = {
   databaseUrl: "postgres://localhost/test",

@@ -19,9 +19,9 @@ export default tseslint.config(
                 "**/modules/*/**",
                 "./modules/*/**",
                 "../modules/*/**",
-                "!**/modules/*/public.js",
-                "!./modules/*/public.js",
-                "!../modules/*/public.js",
+                "!**/modules/*/public",
+                "!./modules/*/public",
+                "!../modules/*/public",
               ],
               message:
                 "Import modules only through their public.ts (CONVENTIONS.md #2).",

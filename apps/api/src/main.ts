@@ -1,5 +1,5 @@
-import { buildApp } from "./app.js";
-import { loadConfig } from "./config.js";
+import { buildApp } from "./app";
+import { loadConfig } from "./config";
 
 const config = loadConfig(process.env);
 const app = await buildApp(config);

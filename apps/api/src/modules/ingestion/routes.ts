@@ -1,6 +1,6 @@
 import type { FastifyInstance } from "fastify";
 import { z } from "zod";
-import type { Config } from "../../config.js";
+import type { Config } from "../../config";
 
 const gpsBatch = z.object({
   points: z

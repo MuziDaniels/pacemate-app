@@ -10,10 +10,10 @@ import {
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { ErrorText, Field, PrimaryButton } from "../../components/ui.js";
-import { colors, kineticGradient, radius, spacing, typeScale } from "../../theme/index.js";
-import { resendConfirmation, sendPasswordReset, signIn } from "./auth.service.js";
-import type { AuthStackParamList } from "../../navigation/AppNavigator.js";
+import { ErrorText, Field, PrimaryButton } from "../../components/ui";
+import { colors, kineticGradient, radius, spacing, typeScale } from "../../theme/index";
+import { resendConfirmation, sendPasswordReset, signIn } from "./auth.service";
+import type { AuthStackParamList } from "../../navigation/AppNavigator";
 
 type Props = NativeStackScreenProps<AuthStackParamList, "Login">;
 

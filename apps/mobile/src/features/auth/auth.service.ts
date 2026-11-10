@@ -1,5 +1,5 @@
 import type { Role } from "@pacemate/shared";
-import { supabase } from "../../services/supabase.js";
+import { supabase } from "../../services/supabase";
 
 export interface Profile {
   id: string;

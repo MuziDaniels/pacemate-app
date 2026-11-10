@@ -1,11 +1,11 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { ActivityIndicator, View } from "react-native";
-import { colors } from "../theme/index.js";
-import { useAuthStore } from "../features/auth/auth.store.js";
-import { LoginScreen } from "../features/auth/LoginScreen.js";
-import { SignupScreen } from "../features/auth/SignupScreen.js";
-import { CoachHomeScreen, RunnerHomeScreen } from "../features/home/HomeScreens.js";
+import { colors } from "../theme/index";
+import { useAuthStore } from "../features/auth/auth.store";
+import { LoginScreen } from "../features/auth/LoginScreen";
+import { SignupScreen } from "../features/auth/SignupScreen";
+import { CoachHomeScreen, RunnerHomeScreen } from "../features/home/HomeScreens";
 
 export type AuthStackParamList = {
   Login: undefined;

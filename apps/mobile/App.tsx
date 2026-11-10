@@ -10,8 +10,8 @@ import {
   PlusJakartaSans_500Medium,
   PlusJakartaSans_700Bold,
 } from "@expo-google-fonts/plus-jakarta-sans";
-import { AppNavigator } from "./src/navigation/AppNavigator.js";
-import { useAuthStore } from "./src/features/auth/auth.store.js";
+import { AppNavigator } from "./src/navigation/AppNavigator";
+import { useAuthStore } from "./src/features/auth/auth.store";
 
 export default function App() {
   const [fontsLoaded] = useFonts({

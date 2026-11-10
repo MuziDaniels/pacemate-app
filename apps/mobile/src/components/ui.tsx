@@ -8,7 +8,7 @@ import {
   type TextInputProps,
   View,
 } from "react-native";
-import { colors, radius, spacing, typeScale } from "../theme/index.js";
+import { colors, radius, spacing, typeScale } from "../theme/index";
 
 export function PrimaryButton(props: {
   label: string;

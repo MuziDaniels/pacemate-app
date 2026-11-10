@@ -1,9 +1,9 @@
 import Fastify from "fastify";
-import type { Config } from "./config.js";
-import { registerIngestion } from "./modules/ingestion/public.js";
-import { registerSessions } from "./modules/sessions/public.js";
-import { registerTerrain } from "./modules/terrain/public.js";
-import { registerCoach } from "./modules/coach/public.js";
+import type { Config } from "./config";
+import { registerIngestion } from "./modules/ingestion/public";
+import { registerSessions } from "./modules/sessions/public";
+import { registerTerrain } from "./modules/terrain/public";
+import { registerCoach } from "./modules/coach/public";
 
 export async function buildApp(config: Config) {
   const app = Fastify({ logger: true });

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { haversineM, trackDistanceM } from "../src/geo/distance.js";
-import { formatPace, paceSPerKm } from "../src/geo/pace.js";
+import { haversineM, trackDistanceM } from "../src/geo/distance";
+import { formatPace, paceSPerKm } from "../src/geo/pace";
 
 // Known pair: Pietermaritzburg City Hall to Durban City Hall. Straight-line
 // (great-circle) distance is ~68.4 km; the Comrades race is ~88 km by road.
